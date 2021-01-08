@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ground"
+    android:orientation="vertical"
+    android:textAlignment="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:src="@drawable/profil" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="394dp"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="12dp"
+            android:text="Nama       :"
+            android:textColor="#000"
+            android:textSize="16sp"
+            app:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="185dp"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="1dp"
+            android:text="Andi Ristanto"
+            android:textColor="#000"
+            android:textSize="16sp"
+            app:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="46dp"
+            android:text="NIM          :"
+            android:textColor="#000"
+            android:textSize="16sp"
+            app:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="184dp"
+            android:layout_marginLeft="184dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/textView5"
+            android:layout_toRightOf="@+id/textView5"
+            android:text="1115070216"
+            android:textColor="#000"
+            android:textSize="16sp"
+            app:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignTop="@+id/textView10"
+            android:text="Jurusan   :"
+            android:textColor="#000"
+            android:textSize="16sp"
+            app:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_marginTop="83dp"
+            android:text="Teknik Informatika"
+            android:textColor="#000"
+            android:textSize="16sp"
+            app:fontFamily="serif" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="209dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-30dp"
+            android:layout_marginLeft="-30dp"
+            android:layout_marginTop="40dp"
+            android:layout_toEndOf="@+id/imageView7"
+            android:layout_toRightOf="@+id/imageView7"
+            app:srcCompat="@drawable/facebook" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="44dp"
+            android:text="www.facebook.com/andi.c.jogja"
+            android:textColor="#000"
+            android:textSize="14sp"
+            app:fontFamily="serif" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="57dp"
+            android:layout_height="76dp"
+            android:layout_alignBottom="@+id/textView12"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginBottom="-28dp"
+            app:srcCompat="@drawable/in" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView13"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="41dp"
+            android:text="www.linkedin.com/in/andi-ristanto"
+            android:textColor="#000"
+            android:textSize="14sp"
+            app:fontFamily="serif" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="93dp"
+            app:srcCompat="@drawable/instagram" />
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView11"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="91dp"
+            android:text="www.instagram.com/ristanto.andi"
+            android:textColor="#000"
+            android:textSize="14sp"
+            app:fontFamily="serif" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

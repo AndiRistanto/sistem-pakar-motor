@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/ground"
+    tools:context=".konsultasi.Detail">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Berdasarkan konsultasi yang telah dilakukan, maka:"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/cardview_dark_background"
+        app:fontFamily="serif"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kerusakan"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:textColor="@color/orangeText2"
+        app:fontFamily="serif"/>
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:text="TextView"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            app:fontFamily="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="solusi"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:textColor="@color/orangeText2"
+        app:fontFamily="serif"/>
+
+        <TextView
+            android:id="@+id/solusi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:text="TextView"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="24sp"
+            app:fontFamily="serif" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp"
+        android:gravity="bottom">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/btnYa"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="home"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button_shape"
+                android:layout_marginStart="5dp"
+                android:onClick="goHome"
+                app:fontFamily="serif"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

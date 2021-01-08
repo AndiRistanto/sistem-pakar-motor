@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ground"
+    android:layout_marginBottom="5dp"
+    tools:context=".PerawatanActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="1. Memanaskan mesin di awal start"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textView2"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/perawatan"
+            android:textSize="14sp"
+            app:fontFamily="serif"
+            android:textColor="@color/colorBlack"
+            android:layout_marginStart="18dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/text"
+            android:layout_marginTop="10dp"
+            android:text="2. Membersihkan karburator dan filter udara"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textView3"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/filter"
+            android:textSize="14sp"
+            app:fontFamily="serif"
+            android:textColor="@color/colorBlack"
+            android:layout_marginStart="18dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/text1"
+            android:layout_marginTop="10dp"
+            android:text="3. Memeriksa kerenggangan rantai roda"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textView4"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/rantai"
+            android:textSize="14sp"
+            app:fontFamily="serif"
+            android:textColor="@color/colorBlack"
+            android:layout_marginStart="18dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/text2"
+            android:layout_marginTop="10dp"
+            android:text="4. Melumasi dan menyetel kabel kopling"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textView5"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/kopling"
+            android:textSize="14sp"
+            app:fontFamily="serif"
+            android:textColor="@color/colorBlack"
+            android:layout_marginStart="18dp" />
+    </RelativeLayout>
+
+</ScrollView>

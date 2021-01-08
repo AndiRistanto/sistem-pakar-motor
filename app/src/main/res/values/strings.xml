@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Sistor</string>
+
+    <string name="aplikasi">Sistem pakar ini adalah aplikasi yang digunakan untuk mendiagnosa kerusakan sepeda motor khususnya sepeda motor Suzuki Satria F150. Aplikasi ini dibuat menggunakan metode Forward Chaining dan sebagai syarat kelulusan Pendidikan S1-Teknik Informatika Sekolah Tinggi Managemen dan Ilmu Komputer Bina Sarana Global atau STMIK Global.</string>
+
+    <string name="motor">Sepeda motor adalah salah satu alat transportasi yang banyak digunakan oleh masyarakat Indonesia. Selain harga yang terjangkau, sepeda motor juga menjadi alternatif untuk menerobos kemacetan di jalan raya. Salah satu sepeda motor yang banyak diminati terutama dikalangan anak muda Indonesia adalah Suzuki Satria F150.</string>
+
+    <string name="perawatan">Proses pemanasan mesin di pagi hari ataupun disaat motor baru akan digunakan dianggap perlu untuk dilakukan. Hal ini bertujuan agar proses pembakaran di dalam mesin bisa sempurna sebelum digunakan. Selain itu juga, pemanasan juga bertujuan agar oli mesin melumasi seluruh bagian dalam mesin motor dan juga agar temperatur mesin menjadi tetap stabil.
+    </string>
+
+    <string name="filter">Membersihkan karburator iti sebenarnya gampang.hanya cukup bermodalkan obeng min plus,kemudian sikat atau kuas halus dan bensin.cara nya lepaskan baut mangkok karburator menggunakan obeng plus,lalu gunakan obeng min untuk membuka pilot jet dan main jet.bersihkan dengan kuas dan lumurlah bensin.untuk bagian atas yang ada vakumnya memang harus agak hati-hati pada saat membuka,agar supaya karet vakum tidak sobek.</string>
+
+    <string name="rantai">Selanjutnya, periksalah kerenggangan rantai,dengan cara menekan rantai yang bawah pada bagian tengah.jarak kerenggangan yang ideal antara sebelum dan sesudah di tekan adalah berkisar 1 sampai 1,5 cm.biasanya kalo sudah gak di setel rantai roda menjadi kendor.dan cara menyetelnya untuk ngencengin pun sangat sederhana.yang pertama anda perlu kunci ring 10 buat muterin setelan rantai yang berada di ujung swingram sebelah kiri.lalu,puter jarum jam buat ngencengin,dan berlawanan arah jarum jam untuk ngendorin.jangan samapi lupa liat jumlah garis-garisnya,antara garis kiri dan kanan pada bagian swing arm.lalu,samakan biar lurus atau center.</string>
+
+    <string name="kopling">Kopling yang seret bisa bikin berkendara jadi gak nyaman.gampang pegel.makanya mesti rutin melumasin dan di setel jarak mainnya.caranya,buka dari bawah di tuas pengungkit kopling dekat selahan bibir lebih gampangnya buka kabelnya.lalu, buat ngelumasin kabel koplingnya bisa pake oli bersih atau miyak singer.kalau mau tuntas dalam pembersihannya tambahin pakai WD40.jangan lupa setel jarak main kopling,caranya tinggal atur dari pangkal tuas kopling depan,lalu puter saja pakai tangan atau pakai tang kalau mungkin di rasa susah dalam memutar.</string>
+    <string name="todo">TODO</string>
+
+    <string name="konsultasi1">
+        Pada menu konsultasi, pengguna dapat melakukan konsultasi mengenai masalah kerusakan sepeda motor Suzuki Satria F150. Ketika pengguna memilih menu "konsultasi", maka akan masuk ke dalam menu konsultasi gejala.
+    </string>
+
+    <string name="konsultasi">
+        Di menu ini akan muncul pertanyaan dari gejala-gejala setiap kerusakan, dan pengguna akan memilh jawaban YA atau TIDAK.
+    </string>
+
+    <string name="data">
+        Pada menu lihat data ini, pengguna dapat langsung melihat daftar kerusakan pada sepeda motor Suzuki Satria F150. Pengguna tinggal memilih atau menekan tombol "Lihat Data".
+    </string>
+
+    <string name="tentang">
+        Pada menu tentang, pengguna dapat melihat tentang aplikasi dan tentang pembuat aplikasi. Pengguna tinggal memilih atau menekan tombol "Tentang".
+    </string>
+
+    <string name="tips">
+        Pada menu tips perawatan, pengguna dapat melihat tips perawatan sepeda motor Suzuki Satria F150. Pengguna tinggal memilih atau menekan tombol "Perawatan".
+    </string>
+    <string name="petunjuk_konsultasi">Petunjuk Konsultasi</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

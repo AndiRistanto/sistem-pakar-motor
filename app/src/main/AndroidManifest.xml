@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.andi.satriaf150">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/a"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Spalshscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".konsultasi.Konsultasi"
+            android:label="Konsultasi"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".konsultasi.Kesimpulan"
+            android:label="Kesimpulan"
+            android:parentActivityName=".konsultasi.Kesimpulan" />
+        <activity
+            android:name=".konsultasi.Detail"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".lihatData.lihatDataKerusakan"
+            android:label="Data Kerusakan"
+            android:parentActivityName=".lihatData.lihatDataKerusakan" />
+        <activity
+            android:name=".tentang.TentangActivity"
+            android:label="Tentang"
+            android:parentActivityName=".tentang.TentangActivity" />
+        <activity
+            android:name=".BantuanActivity"
+            android:label="Bantuan"
+            android:parentActivityName=".BantuanActivity" />
+        <activity
+            android:name=".PerawatanActivity"
+            android:label="Perawatan"
+            android:parentActivityName=".PerawatanActivity" />
+        <activity android:name=".lihatData.DetailKerusakan" />
+        <activity
+            android:name=".Admin.AdminActivity"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Gejala.GejalaActivity" />
+        <activity android:name=".Kerusakan.KerusakanActivity" />
+        <activity android:name=".Rule_Base.RuleActivity" />
+        <activity android:name=".Admin.Login"></activity>
+    </application>
+
+</manifest>

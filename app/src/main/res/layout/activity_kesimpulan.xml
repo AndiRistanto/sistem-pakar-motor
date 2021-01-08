@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ground"
+    tools:context=".konsultasi.Kesimpulan">
+
+    <TextView
+        android:id="@+id/judul_kesimpulan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kesimpulan"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:textColor="#de11"
+        app:fontFamily="serif"/>
+
+    <TextView
+        android:id="@+id/kesimpulan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:textColor="#000"
+        app:fontFamily="serif"/>
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/btn_yes"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="detail"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_shape_no"
+        android:onClick="goDetail"
+        app:fontFamily="serif"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="home"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape"
+        android:onClick="goHome"
+        app:fontFamily="serif"/>
+</LinearLayout>
